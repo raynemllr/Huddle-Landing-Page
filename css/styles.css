@@ -1,0 +1,147 @@
+body {
+    background-image: url("bg-desktop.svg");
+    background-color: hsl(257, 40%, 49%);
+    width: 1440px;
+}
+
+h1 {
+    width: 350px;
+    color: white;
+    position: absolute;
+    right: 150px;
+    top: 190px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400, 700;
+}
+
+p {
+    width: 400px;
+    color: white;
+    position: absolute;
+    right: 100px;
+    top: 320px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.register {
+    border: none;
+    font-size: 15px;
+    color: hsl(257, 40%, 49%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 13px 52px;
+    position: absolute;
+    right: 338px;
+    top: 443px;
+    border-radius: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.logo {
+    width: 220px;
+    height: 50px;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}
+
+#right-side {
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    left: 90px;
+    top: 160px;
+}
+
+#right-side img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+}
+
+.soc-links {
+    display: flex;
+    padding: 0;
+    justify-content: flex-end;
+    position: absolute;
+    right: 108px;
+    top: 620px;
+
+}
+
+.fa {
+    border-radius: 50%;
+    border: 1px white solid;
+    width: 40px;
+    height: 40px;
+    color: white;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    body {
+        background-image: url("bg-desktop.svg");
+        background-color: hsl(257, 40%, 49%);
+        width: 1440px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo {
+        width: 220px;
+        height: 50px;
+        position: absolute;
+        top: 30px;
+        left: 10px;
+    }
+
+    #right-side {
+        width: 450px;
+        height: 500px;
+        position: absolute;
+        left: 16px;
+        top: 160px;
+    }
+    
+    #right-side img {
+        max-width: 100%;
+        max-height: 100%;
+        margin: auto;
+        display: block;
+    }
+
+    h1 {
+        width: 350px;
+        color: white;
+        position: absolute;
+        right: 65px;
+        top: 540px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400, 700;
+    }
+
+    p {
+        position: absolute;
+        right: 45px;
+        top: 660px;
+    }
+
+    .register {
+        right: 148px;
+        top: 790px;
+        padding: 13px 70px;
+    }
+
+    .soc-links {
+        right: 172px;
+        top: 900px;
+    }
+
+  }
